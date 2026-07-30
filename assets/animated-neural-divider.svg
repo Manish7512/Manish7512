@@ -1,0 +1,43 @@
+<svg width="1200" height="86" viewBox="0 0 1200 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dividerGradient" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.28" stop-color="#A78BFA"/>
+      <stop offset="0.52" stop-color="#22C55E"/>
+      <stop offset="0.76" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-220 0;220 0;-220 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="86" rx="18" fill="#020617"/>
+  <path d="M40 43H1160" stroke="url(#dividerGradient)" stroke-width="3" stroke-linecap="round" stroke-dasharray="18 20" filter="url(#softGlow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-152" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <g filter="url(#softGlow)">
+    <circle cx="140" cy="43" r="8" fill="#38BDF8">
+      <animate attributeName="r" values="6;12;6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="330" cy="43" r="8" fill="#A78BFA">
+      <animate attributeName="r" values="12;6;12" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="520" cy="43" r="8" fill="#22C55E">
+      <animate attributeName="r" values="7;13;7" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="710" cy="43" r="8" fill="#F59E0B">
+      <animate attributeName="r" values="13;7;13" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="43" r="8" fill="#00E5FF">
+      <animate attributeName="r" values="6;12;6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="43" r="8" fill="#A78BFA">
+      <animate attributeName="r" values="12;6;12" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

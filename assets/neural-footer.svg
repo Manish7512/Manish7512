@@ -1,0 +1,28 @@
+<svg width="1200" height="160" viewBox="0 0 1200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1200" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="footerText" x1="260" y1="0" x2="940" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.34" stop-color="#A78BFA"/>
+      <stop offset="0.67" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-140 0;140 0;-140 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="footerGlow" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="160" rx="24" fill="url(#footerBg)"/>
+  <path d="M60 120C168 40 282 146 390 66C498 -14 610 144 722 66C834 -12 944 140 1140 42" stroke="#38BDF8" stroke-opacity="0.36" stroke-width="3" stroke-dasharray="14 18">
+    <animate attributeName="stroke-dashoffset" from="0" to="-160" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <text x="600" y="92" text-anchor="middle" fill="url(#footerText)" filter="url(#footerGlow)" font-family="Fira Code, Consolas, monospace" font-size="32" font-weight="800">Thanks for visiting my profile.</text>
+</svg>
