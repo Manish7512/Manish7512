@@ -103,9 +103,10 @@ Gained hands-on experience with Python, Pandas, NumPy, data cleaning, EDA, and m
   <a href="mailto:manishprajapati0638@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/manish-prajapati-97a9372a6/">
+    <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+  </a>
 </p>
-
 <p align="center">
   <img src="./assets/neural-footer.svg" alt="Thanks for visiting my profile." width="100%" />
 </p>
